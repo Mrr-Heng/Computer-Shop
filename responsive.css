@@ -1,0 +1,121 @@
+@media screen and (max-width:1024px){
+    /*Navbar Button*/
+    .flex-navbar-button ul{
+        display: none;
+    }
+    /*Navbar Catagory*/
+    .flex-catagory{
+        margin-top: 2px;
+        margin-left: -50%;
+        padding: 10px 2%;
+    }
+    hr{
+        margin-left: -15%;
+        width: 100%;
+    }
+    /*Banner */
+    .flex-text-on-banner img{
+        width: 100%;
+    }
+    /*Title*/
+    .flex-banner-title{
+        top: 9%;
+        left: 50%;
+        opacity: .7;
+        font-size: 20px;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+    /*Laptop Container Detail Page*/
+    .flex-container-detial-page{
+        width: 100%;
+        margin: auto;
+        margin-left: -5%;
+    }
+    .left{
+        width: 90%;
+        margin-top: 5%;
+        border: solid 1px;
+        border-radius: 5px;
+        box-shadow: 2px 0px 7px 2px black;
+    }
+    .right{
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 600px){
+    /*Navbar Catagory*/
+    .flex-catagory{
+        margin-top: 2px;
+        margin-left: -20%;
+        padding: 10px;
+    }
+    .flex-navbar-catagory a{
+        font-size: 13px;
+    }
+    .flex-navbar-catagory a:hover{
+        font-size: 13px;
+    }
+    .flex-navbar-catagory li{
+        margin-top: 5%;
+        margin-left: -15%;
+    }
+    #fa-chevron-down{
+        padding: 0px 40px;
+    }
+    hr{
+        margin-left: -15%;
+        width: 100%;
+    }
+    /*Banner */
+    .flex-text-on-banner img{
+        width: 100%;
+    }
+    /*Title*/
+    .flex-banner-title{
+        top: 7%;
+        left: 50%;
+        opacity: .7;
+        font-size: 18px;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+    /*Laptop Container*/
+    .flex-container-detial-page{
+        width: 100%;
+        margin: auto;
+        margin-left: -10%;
+    }
+    .left{
+        width: 60%;
+        margin-top: 5%;
+        border: solid 1px;
+        border-radius: 5px;
+        box-shadow: 2px 0px 7px 2px black;
+    }
+    .right{
+        width: 40%;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .big-img{
+        width: 80%;
+        margin: auto;
+        margin-left: 20%;
+    }
+    .big-img img{
+        width: inherit;
+    }
+    .images{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin-top: 10%;
+        margin: auto;
+    }
+    .small-img{
+        width: 80px;
+        overflow: hidden;
+        border: 1.5px solid black;
+    }
+}

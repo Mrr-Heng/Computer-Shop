@@ -1,0 +1,404 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Signika Negative', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+
+main{
+    max-width: 1500px;
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+main .card{
+    max-width: 300px;
+    flex: 1 1 210px;
+    text-align: center;
+    height: 420px;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+    margin: 20px;
+}
+main .card:hover{
+    max-width: 300px;
+    flex: 1 1 210px;
+    text-align: center;
+    height: 420px;
+    border: 1px solid lightgray;
+    margin: 20px;
+    transform: scale(1.05);
+}
+main .card .image{
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+main .card .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .card .caption{
+    padding-left: 1em;
+    text-align: left;
+    line-height: 3em;
+    height: 25%;
+}
+main .card .caption h3{
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+}
+main .card .caption p{
+    font-size: 1.5rem;
+    color: red;
+    text-align: center;
+}
+
+del{
+    text-decoration: line-through;
+}
+
+main .card .caption .rate{
+    display: flex;
+    justify-content: center;
+}
+
+main .card .caption .rate i{
+    color: gold;
+    margin-left: 2px;
+}
+
+main .card a{
+    width: 50%;
+}
+
+main .card button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 255, 0);
+    padding: 1em;
+    width: 45%;
+    cursor: pointer;
+    margin-top: 2em;
+    font-weight: bold;
+    position: relative;
+}
+.add a{
+    text-decoration: none;
+}
+main .card button:hover{
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    transition: .4s;
+    padding: 1em;
+    width: 45%;
+    cursor: pointer;
+    margin-top: 2em;
+    font-weight: bold;
+    position: relative;
+}
+/*Banner */
+.flex-text-on-banner img{
+    width: 100%;
+}
+/*Title*/
+.flex-banner-title{
+    top: 22.5%;
+    left: 50%;
+    font-size: 60px;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    position: absolute;
+    text-align: center;
+}
+/*Navbar*/
+.flex-catagory{
+    margin-top: 16px;
+    margin-left: -3%;
+    padding: 0px 1%;
+}
+.flex-navbar-size{
+    width: 100%;
+    margin: auto;
+    background: rgb(133,49,255);
+    background: linear-gradient(90deg,rgba(133,49,255,1)0%,
+    rgba(252,70,107,1));
+}
+.flex-navbar-button{
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+}
+.flex-navbar-button ul{
+    display: flex;
+    flex-direction: row;
+}
+.flex-navbar-button li{
+    list-style: none;
+    margin: 10px 13px;
+}
+.flex-navbar-button a{
+    text-decoration: none;
+    font-size: 18px;
+    transition: .3s;
+    color: #fff;
+}
+.flex-navbar-button a:hover{
+    text-decoration: none;
+    font-size: 23px;
+    transition: .3s;
+    color: black;
+}
+.flex-navbar-button i{
+    margin: 4px 5px;
+    font-size: 20px;
+}
+.value-of-cart{
+    margin-left: -17px;
+    margin-top: -5px;
+}
+/*All Catagory*/
+.flex-navbar-catagory{
+    display: none;
+}
+.flex-navbar-catagory i{
+    padding: 0px 10px;
+}
+#fa-chevron-down{
+    padding: 0px 50px;
+}
+.flex-navbar-button li:hover .flex-navbar-catagory{
+    display: block;
+    position: absolute;
+    background: rgb(133,49,255);
+    background: linear-gradient(90deg,rgba(133,49,255,1)0%,
+    rgba(252,70,107,1));
+    opacity: .8;
+}
+.flex-navbar-button li:hover .flex-navbar-catagory ul{
+    display: block;
+}
+.flex-navbar-catagory a{
+    font-size: 15px;
+    transition: 0.3s;
+}
+.flex-navbar-catagory a:hover{
+    font-size: 15px;
+    transition: 0.3s;
+    color: black;
+}
+.flex-navbar-catagory li{
+    margin-top: 5%;
+    margin-left: -10%;
+}
+hr{
+    margin-left: -10%;
+    width: 100%;
+}
+/*Flex-Container-Size*/
+.flex-container-size{
+    width: 96%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-container-left{
+    width: 30%;
+    margin: auto;
+    background-color: red;
+}
+.flex-container-right{
+    width: 68%;
+    margin: auto;
+    background-color: aqua;
+}
+/*Flex-Container-Images-Right*/
+.flex-container-images-right{
+    display: flex;
+}
+.flex-container-images-right img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+/*Detail Page*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.flex-container-detial-page{
+    width: 80%;
+    margin: auto
+}
+.flex-box{
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+}
+.left{
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border: solid 1px;
+    border-radius: 5px;
+    box-shadow: 2px 0px 7px 2px black;
+}
+.right{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.big-img{
+    width: 250px;
+    margin: auto;
+}
+.big-img img{
+    width: inherit;
+}
+.big-img img:hover{
+    width: inherit;
+    transform: scale(1.2);
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 15px;
+    margin: auto;
+}
+.small-img{
+    width: 80px;
+    overflow: hidden;
+    border: 1.5px solid black;
+}
+.small-img:hover{
+    width: 80px;
+    overflow: hidden;
+    border: 1.5px solid red;
+    transition: all 0.3s ease;
+}
+.small-img img{
+    width: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.small-img:hover img{
+    transform: scale(1.2);
+}
+.url{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(0, 102, 255);
+}
+.model{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.ratings i{
+    color: rgb(255, 136, 0);
+    margin-top: 10px;
+}
+.price{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+/*Storage*/
+.storage{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.storage p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.ssd-m2{
+    width: 60px;
+    height: 20px;
+    border: 1px solid black;
+    color: #000;
+    text-align: center;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.ssd-m2.active{
+    border-width: 1.5px;
+    color: red;
+    font-weight: 500;
+}
+/*Ram*/
+.memory{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.memory p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.ram{
+    width: 60px;
+    height: 20px;
+    border: 1px solid black;
+    color: #000;
+    text-align: center;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.ram.active{
+    border-width: 1.5px;
+    color: red;
+    font-weight: 500;
+}
+.quantity{
+    display: flex;
+}
+.quantity p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.quantity input{
+    width: 40px;
+    height: 35px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 3%;
+    text-align: center;
+    margin-left: 15px;
+}
+.btn-box{
+    display: flex;
+    margin-top: 40px;
+}
+.btn-box button{
+    font-size: 18px;
+    padding: 8px 25px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+}
+.buy-btn{
+    background-color: red;
+}
+.buy-btn:hover{
+    background-color: #0066ff;
+    transition: 0.7s;
+}
